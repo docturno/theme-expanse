@@ -111,7 +111,17 @@
           <div class="arrow"></div>
         </div>
       </div>
-
+      
+      <!--Tag cloud-->
+      {% if site.tags %}
+      <div class="tags">
+        {% for tag in site.tags %}
+          <a href="/tag/{{ tag.name }}">#{{ tag.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <!--Fin tag cloud-->
+      
       <div class="post">
 
       {% if is_home or is_tag %}
