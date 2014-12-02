@@ -1122,7 +1122,7 @@ div.posts h3 a {
   color: #0e3029;
 }
 div.posts h3 a:hover {
-  color: #72ddf7; /*#37cca2*/
+  color: #37cca2;
 }
 div.posts h3 a.like {
   position: absolute;
