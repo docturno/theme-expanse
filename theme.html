@@ -114,11 +114,11 @@
       
       <!--Tag cloud-->
       {% if site.tags %}
-      <div class="tags">
+      <ul class="post-tags">
         {% for tag in site.tags %}
-          <a href="/tag/{{ tag.name }}">#{{ tag.name }}</a>
+          <li><a href="/tag/{{ tag.name }}">#{{ tag.name }}</a></li>
         {% endfor %}
-      </div>
+      </ul>
       {% endif %}
       <!--Fin tag cloud-->
       
