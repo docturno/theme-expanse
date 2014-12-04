@@ -117,7 +117,8 @@ body {
 }
 .container {
   position: relative;
-  top:300px;/*no existia antes*/
+  top:500px;/*no existia antes*/
+  background-color:#ffffff;/*no existia antes*/
   display: block;
   clear: both;
   margin: 0 auto;
