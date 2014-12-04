@@ -116,7 +116,8 @@ body {
   height: 0;
 }
 .container {
-  position: absolute; /*relative*/
+  position: relative;
+  top:300px;/*no existia antes*/
   display: block;
   clear: both;
   margin: 0 auto;
