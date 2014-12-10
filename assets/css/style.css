@@ -127,6 +127,7 @@ body {
 .container.wide {
   width: 80%;
   max-width: 1280px;
+  background-color:#FBF0D9;/*no existía*/
 }
 .container:after {
   visibility: hidden;
